@@ -13,7 +13,6 @@ const zaproc =async () =>
                 for (let elem of request) {
                     rezalts.push(elem)
                 }
-                // console.log(rezalts,"rezalts")
                 block.innerHTML = `
                 <div class="card">
                     <h3>${request[num].title}</h3>
